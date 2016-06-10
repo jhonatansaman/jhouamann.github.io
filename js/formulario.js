@@ -31,7 +31,7 @@ $(document).ready(function () {
         enviarEmail();
     });
 
-    $(document).ajaxStart(function () {
+ $(document).ajaxStart(function () {
         $("#carregando").show();
     });
 });
